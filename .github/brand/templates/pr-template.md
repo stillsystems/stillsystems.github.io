@@ -18,4 +18,4 @@ Fixes #{Issue Number}
 
 ---
 
-⚓ **SailorOps** — Tools engineered for real-world conditions.
+⚓ **Still Systems** — Tools engineered for real-world conditions.
