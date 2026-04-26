@@ -1,10 +1,10 @@
-# SailorOps Brand Kit
+# Still Systems Brand Kit
 
-This folder contains the official identity system for the SailorOps organization.  
+This folder contains the official identity system for the Still Systems organization.  
 All visual, verbal, and product‑experience guidelines live here.
 
 ## Contents
-- `design-system.md` — Full SailorOps design system
+- `design-system.md` — Full Still Systems design system
 - `colors/` — Brand palette and color usage
 - `typography/` — Font rules and specimens
 - `logos/` — Official logo files and usage guidelines

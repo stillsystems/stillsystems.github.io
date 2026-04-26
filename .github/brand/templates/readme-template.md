@@ -22,12 +22,12 @@ Build fast. Ship clean.
 
 ### **Homebrew**
 ```bash
-brew install SailorOps/homebrew-tap/{project-name}
+brew install stillsystems/homebrew-tap/{project-name}
 ```
 
 ### **Scoop**
 ```powershell
-scoop bucket add sailorops https://github.com/SailorOps/scoop-bucket
+scoop bucket add stillsystems https://github.com/stillsystems/scoop-bucket
 scoop install {project-name}
 ```
 

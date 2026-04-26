@@ -1,6 +1,6 @@
-# SailorOps Design System
+# Still Systems Design System
 
-The SailorOps Design System defines how the organization looks, sounds, and behaves across all tools, repos, and communication surfaces.
+The Still Systems Design System defines how the organization looks, sounds, and behaves across all tools, repos, and communication surfaces.
 
 ## 1. Brand Foundations
 ### Brand Pillars
@@ -67,4 +67,4 @@ See `cli-style/cli-formatting.md`.
 ## 6. Governance
 See `governance/versioning.md`.
 
-This document evolves as SailorOps grows.
+This document evolves as Still Systems grows.
