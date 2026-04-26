@@ -1,4 +1,4 @@
-# SailorOps CLI Style Guide
+# Still Systems CLI Style Guide
 
 ## Colors
 - Info: Ops Blue  

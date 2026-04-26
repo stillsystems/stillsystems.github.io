@@ -16,4 +16,4 @@ All visual, verbal, and product‑experience guidelines live here.
 - `cli-style/` — CLI and TUI design language
 - `governance/` — Versioning and contribution rules
 
-This kit ensures consistency across all SailorOps tools, repos, and documentation.
+This kit ensures consistency across all Still Systems tools, repos, and documentation.

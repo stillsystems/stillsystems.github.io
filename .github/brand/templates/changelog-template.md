@@ -19,4 +19,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-⚓ **SailorOps** — Tools engineered for real-world conditions.
+⚓ **Still Systems** — Tools engineered for real-world conditions.

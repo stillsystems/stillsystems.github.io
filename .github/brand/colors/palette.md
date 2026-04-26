@@ -1,4 +1,4 @@
-# SailorOps Color Palette
+# Still Systems Color Palette
 
 ## Core Colors
 | Name | Hex | Usage |

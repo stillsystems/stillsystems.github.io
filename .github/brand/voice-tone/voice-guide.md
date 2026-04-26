@@ -1,4 +1,4 @@
-# SailorOps Voice & Tone Guide
+# Still Systems Voice & Tone Guide
 
 Our voice is the personality of the organization. Our tone is how that personality adapts to specific situations.
 
@@ -24,4 +24,4 @@ Our voice is the personality of the organization. Our tone is how that personali
 
 ---
 
-⚓ **SailorOps** — Tools engineered for real-world conditions.
+⚓ **StillSystems** — Tools engineered for real-world conditions.

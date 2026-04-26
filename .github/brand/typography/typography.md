@@ -1,4 +1,4 @@
-# SailorOps Typography
+# Still Systems Typography
 
 ## Primary Typeface
 **Inter**  

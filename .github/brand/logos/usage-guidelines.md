@@ -1,4 +1,4 @@
-# SailorOps Logo Usage Guidelines
+# Still Systems Logo Usage Guidelines
 
 ## Primary Logo
 Anchor + compass + circuitry emblem.

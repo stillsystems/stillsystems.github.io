@@ -1,4 +1,4 @@
-# SailorOps Pattern Guidelines
+# Still Systems Pattern Guidelines
 
 ## Pattern Types
 - Circuitry overlays

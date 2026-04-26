@@ -7,7 +7,7 @@ Build fast. Ship clean.
 
 ## 🧭 Philosophy
 
-{PROJECT_NAME} is built within the SailorOps ecosystem and follows our core principles:
+{PROJECT_NAME} is built within the Still Systems ecosystem and follows our core principles:
 - 🛡️ **Clarity over cleverness** — predictable behavior, no magic.
 - 📦 **Portability over complexity** — single binaries, no global state.
 - ⚓ **Durability over trends** — long‑term maintainability, minimal dependencies.
@@ -40,7 +40,7 @@ scoop install {project-name}
 
 ## 🤝 Contributing
 
-We welcome contributions that align with our [Contribution Rules](https://github.com/SailorOps/.github/blob/main/brand/governance/contribution-rules.md). 
+We welcome contributions that align with our [Contribution Rules](https://github.com/stillsystems/.github/blob/main/brand/governance/contribution-rules.md). 
 
 1. Fork the repo.
 2. Create your feature branch.
@@ -50,4 +50,4 @@ We welcome contributions that align with our [Contribution Rules](https://github
 
 ---
 
-⚓ **SailorOps** — Modern developer tooling engineered for real‑world conditions.
+⚓ **Still Systems** — Modern developer tooling engineered for real‑world conditions.
