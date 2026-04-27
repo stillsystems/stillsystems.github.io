@@ -21,4 +21,4 @@ The content of this site is licensed under the MIT License.
 [Documentation](https://stillsystems.github.io) • [Issues](https://github.com/stillsystems/stillsystems.github.io/issues) • [Support](https://github.com/stillsystems/.github/blob/main/SUPPORT.md)
 
 ---
-⚓ **Still Systems** — Tools engineered for real-world conditions.
+🧱 **Still Systems** — Tools engineered for real-world conditions.
