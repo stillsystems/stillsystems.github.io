@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Still Systems | Foundation Developer Tools</title>
+    <meta name="description" content="A focused workshop dedicated to building foundational developer tools with structural clarity, long-term stability, and zero runtime dependencies.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --slate-950: #0a0c10;
+            --slate-900: #111827;
+            --slate-800: #1f2937;
+            --slate-400: #9ca3af;
+            --slate-200: #e5e7eb;
+            --white: #ffffff;
+            --accent-blue: #0075CA;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--slate-950);
+            color: var(--slate-200);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 6rem;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            color: var(--slate-400);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--slate-400);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .section-title::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--slate-800);
+        }
+
+        .card {
+            background: var(--slate-900);
+            border: 1px solid var(--slate-800);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 4rem;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: var(--slate-400);
+        }
+
+        .card h2 {
+            font-size: 1.75rem;
+            color: var(--white);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .card p {
+            font-size: 1.125rem;
+            color: var(--slate-400);
+            margin-bottom: 2rem;
+        }
+
+        .badge-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .badge {
+            background: var(--slate-800);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--slate-200);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--white);
+            color: var(--slate-950);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .mini-card {
+            background: var(--slate-900);
+            border: 1px solid var(--slate-800);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .mini-card:hover {
+            background: var(--slate-800);
+        }
+
+        .mini-card h3 {
+            font-size: 1rem;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+
+        .mini-card p {
+            font-size: 0.875rem;
+            color: var(--slate-400);
+        }
+
+        footer {
+            margin-top: 8rem;
+            padding-top: 4rem;
+            border-top: 1px solid var(--slate-800);
+            text-align: center;
+            color: var(--slate-400);
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 640px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2.25rem;
+            }
+        }
+
+        /* Subtle glow effect */
+        .glow {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 1200px;
+            height: 400px;
+            background: radial-gradient(circle at center, rgba(0, 117, 202, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="glow"></div>
+    <div class="container">
+        <header>
+            <img src="https://raw.githubusercontent.com/stillsystems/.github/main/brand/logo.png" alt="Still Systems Logo" class="logo">
+            <h1>Still Systems</h1>
+            <p class="tagline">Foundational developer tools engineered for structural clarity and long-term stability.</p>
+        </header>
+
+        <div class="section-title">Flagship Tool</div>
+        
+        <div class="card">
+            <h2>⚓ Nexus-V</h2>
+            <p>The core scaffolding engine of the Still Systems ecosystem. Built for real-world conditions with zero runtime dependencies.</p>
+            <div class="badge-group">
+                <span class="badge">Go</span>
+                <span class="badge">Static Binary</span>
+                <span class="badge">Zero Runtime Deps</span>
+            </div>
+            <a href="https://github.com/stillsystems/nexus-v" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="section-title">Distribution Channels</div>
+        
+        <div class="grid">
+            <a href="https://github.com/stillsystems/winget-nexusv" class="mini-card">
+                <h3>WinGet</h3>
+                <p>Official manifests for the Windows Package Manager.</p>
+            </a>
+            <a href="https://github.com/stillsystems/scoop-bucket" class="mini-card">
+                <h3>Scoop</h3>
+                <p>A dedicated bucket for Still Systems tools.</p>
+            </a>
+            <a href="https://github.com/stillsystems/homebrew-nexusv" class="mini-card">
+                <h3>Homebrew</h3>
+                <p>Official tap for macOS and Linux users.</p>
+            </a>
+            <a href="https://github.com/stillsystems/.github" class="mini-card">
+                <h3>Organization</h3>
+                <p>Global guidelines, branding, and governance.</p>
+            </a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Still Systems. Built with stability in mind.</p>
+            <p style="margin-top: 1rem;">Athens, Texas &bull; Open Source</p>
+        </footer>
+    </div>
+</body>
+</html>
